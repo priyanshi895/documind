@@ -11,6 +11,10 @@ DocuMind lets you upload a PDF and ask natural-language questions about its cont
 5. **Retrieve** — When a question is asked, it's embedded the same way, and the most semantically similar chunks are retrieved via vector similarity search.
 6. **Generate** — The retrieved chunks and the question are passed to a local LLM (via Ollama), which generates an answer grounded in the retrieved context.
 
+## Demo
+
+![DocuMind Demo](./demo.gif)
+
 ## Tech Stack
 
 **Backend:** Java, Spring Boot, PostgreSQL + pgvector, Apache PDFBox
